@@ -11,8 +11,8 @@ public class ReactionMachine {
 //            return;
 //        }
 //        String controllerName = args[0];
-//        String controllerName = "SimpleReactionController";
-        String controllerName = "EnhancedReactionController";
+        String controllerName = "SimpleReactionController";
+//        String controllerName = "EnhancedReactionController";
         //Load the class file
         Class cl = Class.forName(controllerName, true,
                 Thread.currentThread().getContextClassLoader());
